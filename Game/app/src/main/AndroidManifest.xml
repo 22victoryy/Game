@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.GameStart"></activity>
+        <activity android:name=".level2.states.FinalScore" />
+        <activity android:name=".activities.HiddenBonusActivityEnd" />
+        <activity android:name=".activities.HiddenBonusActivity" />
+        <activity
+            android:name=".activities.Activity1"
+            android:label="@string/title_activity_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".level2.ChooseDifficulty" />
+        <activity android:name=".activities.ExtraActivity" />
+        <activity android:name=".extragamelevel.MainExtraLevel" />
+        <activity android:name=".extragamelevel.GameOver"/>
+        <activity android:name=".extragamelevel.Next"/>
+        <activity
+            android:name=".level1.TriviaGame"
+            android:label="@string/title_activity_trivia_game"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".level1.PlayerPersonalTrivia"
+            android:label="Settings"
+            android:parentActivityName=".activities.Activity1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.Activity1" />
+        </activity>
+        <activity android:name=".level1.TriviaGameEndActivity" />
+        <!--
+        Want to make activity3 fullscreen.
+         Credit to StackOverflow user Christian and mrroboaat.
+         https://stackoverflow.com/a/2868052
+         !
+        -->
+        <activity
+            android:name=".activities.Activity3"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".activities.Activity2" />
+        <activity android:name=".login.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".level2.MainLevel2" />
+        <activity android:name=".login.Register" />
+        <activity android:name=".login.AuthenticatedScreen" />
+        <activity android:name=".level3.MainLevel3" />
+    </application>
+
+</manifest>

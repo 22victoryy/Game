@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.Activity1"
+    tools:showIn="@layout/activity_1">
+
+    <ImageView
+        android:id="@+id/mathButton"
+        android:layout_width="132dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#9C27B0"
+        android:contentDescription="@string/mathLogoDescription"
+        android:onClick="mathGame"
+        app:layout_constraintBottom_toTopOf="@+id/englishButton"
+        app:layout_constraintEnd_toStartOf="@+id/scienceButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/triviaGameInstructions"
+        app:srcCompat="@drawable/mathlogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="347dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/triviaGameTitle"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/triviaGameInstructions"
+        android:layout_width="359dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/triviaGameInstructionsDescription"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/mathButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/nextLevelButton"
+        android:layout_width="155dp"
+        android:layout_height="88dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="toLevel2"
+        android:text="@string/skipToNextLevel"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="143dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="16dp"
+        android:background="#9C27B0"
+        android:onClick="endGame"
+        android:text="@string/quitButton"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nextLevelButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/scienceButton"
+        android:layout_width="130dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="17dp"
+        android:contentDescription="@string/scienceLogoDescription"
+        android:onClick="scienceGame"
+        app:layout_constraintBottom_toTopOf="@+id/frenchButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mathButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sciencelogo" />
+
+    <ImageView
+        android:id="@+id/englishButton"
+        android:layout_width="108dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="54dp"
+        android:contentDescription="@string/englishLogoDescription"
+        android:onClick="englishGame"
+        app:layout_constraintBottom_toTopOf="@+id/quitButton"
+        app:layout_constraintEnd_toStartOf="@+id/frenchButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mathButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/englishlogo" />
+
+    <ImageView
+        android:id="@+id/frenchButton"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="148dp"
+        android:contentDescription="@string/frenchLogoDescription"
+        android:onClick="frenchGame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/englishButton"
+        app:layout_constraintTop_toBottomOf="@+id/scienceButton"
+        app:srcCompat="@drawable/frenchlogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

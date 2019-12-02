@@ -1,0 +1,24 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="subject_entries">
+        <item>Math</item>
+        <item>Science</item>
+        <item>English</item>
+        <item>French</item>
+        <item>History</item>
+        <item>Arts</item>
+        <item>Geography</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="subject_values">
+        <item>math</item>
+        <item>science</item>
+        <item>english</item>
+        <item>french</item>
+        <item>history</item>
+        <item>arts</item>
+        <item>geography</item>
+        <item>other</item>
+    </string-array>
+</resources>

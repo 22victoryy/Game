@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Game</string>
+
+    <string name="edit_message">Enter Username</string>
+    <string name="button_send">Enter</string>
+    <string name="add_score">+1 Score</string>
+    <string name="next_level">Next Level</string>
+
+    <!---Trivia Game -->
+    <string name="title_activity_trivia_game">Trivia Madness</string>
+    <string name="numberOfPoints">Points: 0</string>
+    <string name="countDownText">Seconds Remaining:</string>
+    <string name="question">question</string>
+    <string name="questionOption1">option1</string>
+    <string name="questionOption2">option2</string>
+    <string name="questionOption3">option3</string>
+    <string name="questionOption4">option4</string>
+    <string name="title_activity_settings">My Trivia</string>
+    <string name="action_settings">My Trivia</string>
+    <string name="quitGameButton">Quit</string>
+    <string name="nextLevelButton">Next Level</string>
+    <string name="title_activity_math_trivia_game">MathTriviaGame</string>
+    <string name="triviaGameOver">Game Over</string>
+    <string name="nextLevel2">Next Level</string>
+    <string name="finalPointsText">Points: 0</string>
+    <string name="quit">Quit</string>
+    <string name="playAgain">Play Again</string>
+    <string name="skipToNextLevel">Skip to Next Level</string>
+    <string name="quitButton">Quit</string>
+    <string name="mathLogoDescription">Math Subject Logo</string>
+    <string name="triviaGameInstructionsDescription">Answer the trivia questions as quickly and
+        accurately as you can before the time runs out! Click a subject to start!</string>
+    <string name="frenchLogoDescription">French Subject Logo</string>
+    <string name="englishLogoDescription">English Subject Logo</string>
+    <string name="scienceLogoDescription">Science Math Subject Logo</string>
+    <string name="triviaGameTitle">Level 1: Trivia Madness</string>
+    <string name="title_activity_1">Level 1</string>
+
+    <!-- Hidden Bonus Activity -->
+    <string name="easterEggDescription">Easter egg that leads to a bonus hidden activity</string>
+    <string name="randomNumberText">0</string>
+    <string name="randomNumberGeneratorButtonText">Get Bonus Points!</string>
+    <string name="hiddenActivityTitle">Hidden Bonus Activity!</string>
+    <string name="hiddenActivityDescription">Click the button to see how many bonus points you will
+        get.</string>
+    <string name="numBonusPoints">You got 2 bonus points!</string>
+    <string name="smileyBackgroundDescription">smiley face background</string>
+
+    <!-- StatisticsManager strings -->
+    <string name="points">"Points: "</string>
+    <string name="bonus_points">"Bonus points earned: "</string>
+
+    <!--BonusLevel strings -->
+    <string name="remaining_life">"Remaining Life: "</string>
+    <string name="find">"Find "</string>
+
+
+</resources>

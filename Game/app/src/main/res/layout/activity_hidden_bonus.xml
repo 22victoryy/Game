@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HiddenBonusActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="506dp"
+        android:layout_height="248dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/randomNumberText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/smileybackground" />
+
+    <TextView
+        android:id="@+id/randomNumberText"
+        android:layout_width="406dp"
+        android:layout_height="456dp"
+        android:background="#FFEB3B"
+        android:gravity="center_vertical"
+        android:text="@string/randomNumberText"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="200sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hiddenActivitydescription" />
+
+    <TextView
+        android:id="@+id/hiddenActivityTitle"
+        android:layout_width="384dp"
+        android:layout_height="77dp"
+        android:gravity="clip_vertical|center_horizontal|center_vertical"
+        android:text="@string/hiddenActivityTitle"
+        android:textAlignment="center"
+        android:textColor="#000109"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/hiddenActivitydescription"
+        android:layout_width="379dp"
+        android:layout_height="122dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/hiddenActivityDescription"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/randomNumberText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/randomNumberGeneratorButton"
+        android:layout_width="402dp"
+        android:layout_height="92dp"
+        android:background="#E91E63"
+        android:onClick="generateRandomNumber"
+        android:text="@string/randomNumberGeneratorButtonText"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomNumberText"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
