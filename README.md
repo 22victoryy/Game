@@ -1,5 +1,5 @@
 # Game
-An android application containing three different games with appropriate score tracking. Developed in collaboration with @marl0ny, @Zara, @Allen, and @Vivian. 
+An android application containing three different games with appropriate score tracking. Developed in collaboration with @marl0ny, @Zara, @Allen, and @vivianlam1998. 
 
 # Instructions for cloning
 This project took place in CSC207 Fall 2019 at University of Toronto, and may be cloned through this github or through the below link:<br/>
