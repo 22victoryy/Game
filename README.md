@@ -7,6 +7,6 @@ https://markus.teach.cs.toronto.edu/git/csc207-2019-09/group_0629
 
 # Thanks to...
 Team members who collaborated through this app development<br/>
-Paul Gries / Lindsey Shorser - For course instruction and guiding us through Android Development in CSC207 Fall 2019<br/>
+Paul Gries / Lindsey Shorser - For instruction of CSC207 Fall 2020 at University of Toronto<br/>
 Documentations of Firebase / Android Development<br/>
 
