@@ -7,6 +7,7 @@ https://markus.teach.cs.toronto.edu/git/csc207-2019-09/group_0629
 
 # Credits
 Paul Gries / Lindsey Shorser - For instruction of CSC207 Fall 2020 at University of Toronto<br/>
+Paul Gries / Michelle Craig - For approving my prerequisite waiver and course enrollment
 Team members who collaborated through this app development<br/>
 Documentations of Firebase / Android Development<br/>
 
